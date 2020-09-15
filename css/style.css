@@ -1,9 +1,7 @@
 body{
-  background-color: red;
+  background-color: #cc99ff;
 }
-img {
-  border-radius: 50%;
-}
+
 hr{
   border-style: none;
   border-top-style: dotted;
