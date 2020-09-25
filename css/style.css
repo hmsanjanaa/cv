@@ -1,14 +1,145 @@
-body{
-  background-color: #cc99ff;
+.top{
+  background-color: #EAF6F6;
+  padding-top : 100px;
+  position: relative;
+  font-family: 'Merriweather', serif;
+  /*height: 200px;
+  width: 200px;
+  border: solid 10px;
+  padding: 20px;*/
 }
-
+.profile-img {
+  width: 15%;
+  margin-top: 70px;
+}
+body{
+  text-align: center;
+  margin: 0;
+ font-size: 200%;
+}
+p{
+  line-height: 2;
+}
+.p-cls{
+  color: #40514E;
+}
+h1{
+  color: #66BFBF;
+  margin: 50px auto 0 auto;
+  font-size: 5.625rem;/*rem will ingone the parent font size  */
+  font-family: 'Sacramento', cursive;
+  /*margin: 0 auto 0 auto; this will align all sides to center */
+  /*width:10%;*/
+}
+h2 {
+  font-weight:bolder;
+  /*line-height: 2;*/
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;/*40px *1em =16px =>40/16=2.5em*/
+}
+h3 {
+  color:#11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+a {
+  color:#11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover{
+  color: #EAF6F6;
+}
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  /*line-height: 2;*/
+}
+.chilly-img{
+  width: 35%;
+  float: right;
+  margin-right: 30px;
+}
+.computer-img{
+  width: 35%;
+  float: left;
+  margin-right: 30px;
+}
+/*.web-skill {
+  clear: left;
+}*/
+.middle{
+  /*background-color: red;
+  height: 200px;
+  width: 200px;
+  margin-left: 260px;
+  height: 200px;
+  width: 200px;
+  border: solid 20px;*/
+}
+.bottom{
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+  /*background-color: blue;
+  height: 200px;
+  width: 200px;
+  margin-left: 500px;
+  height: 200px;
+  width: 200px;
+  border: solid 10px;*/
+}
+.bottom-cloud{
+  position: absolute;
+  left:200px;
+  bottom: 300px;
+}
+.top-cloud{
+position: absolute;
+right:200px;
+top:50px;
+}
 hr{
+  margin: 100px auto 100px auto;
   border-style: none;
   border-top-style: dotted;
   border-color: grey;
-  border-width: 5px;
+  border-width: 6px;
   width: 5%;
 }
-h1,h3{
-  color:white;
+.contact-class {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.button {
+  font-family: 'Montserrat', sans-serif;
+  border: none;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px auto 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  position: relative;
+  border-radius: 8px;
+  background-color: white;
+  color: black;
+  border: 2px solid #008CBA;
+  margin-bottom: 100px;
+}
+
+.button:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
 }
